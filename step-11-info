@@ -1,0 +1,3 @@
+Once the traffic will reach to the PrivateEndpointSubnet network interface (NIC) of your Private Endpoint is located.
+
+The Private Endpoint’s NIC securely passes the connection to the Storage Account using Azure’s internal backbone network (not the public internet).
