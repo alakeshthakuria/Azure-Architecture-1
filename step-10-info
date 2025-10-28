@@ -1,0 +1,11 @@
+The DNS resolver sends back the private IP [x.x.x.x] to our laptop through the VPN tunnel.
+
+our on-prem device now knows the destination IP [x.x.x.x]
+
+So when you try to access https://storageaccountfordemolab.blob.core.windows.net, our system sends packets to the private IP of the storage account’s Private Endpoint.
+
+Because our laptop is connected via the Point-to-Site VPN, all traffic for Azure VNet addresses (like x.x.x.x) goes through the VPN tunnel.
+
+So  the packets automatically flow through the VPN tunnel, which terminates at the Virtual Network Gateway (inside the Gateway Subnet).
+
+The VPN Gateway forwards this traffic to the target private IP (x.x.x.x) — which is the network interface (NIC) of your Private Endpoint, located in the PrivateEndpointSubnet.
