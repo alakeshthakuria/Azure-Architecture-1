@@ -1,0 +1,1 @@
+So when we query https://<mystorageaccount>.blob.core.windows.net. The DNS query first goes through the VPN tunnel, then It enters Azure through the Virtual Network Gateway to the Gateway subnet and then it reaches DNS Resolver inbound Subnet.  
