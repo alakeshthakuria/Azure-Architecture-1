@@ -1,0 +1,1 @@
+After getting Private IP address from VPN configuration of gateway to on-prem device VPN Tunnel formed - Now traffic data will move from on-prem device to gateway and vice versa using this tunnel over the public internet and data will be encrypted inside the tunnel.
