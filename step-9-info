@@ -1,0 +1,3 @@
+The DNS response exits the DNS Resolver subnet, then passes through the Gateway Subnet (because that’s where our VPN gateway sits), and finally goes back through 
+
+the VPN tunnel to our on-premises laptop.
