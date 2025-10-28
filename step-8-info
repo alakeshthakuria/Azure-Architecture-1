@@ -1,0 +1,3 @@
+The Private DNS Zone contains an A record that Azure automatically created when we made the Private Endpoint. So the DNS Resolver gets this A [x.x.x.x] record of the private endpoint
+
+of our storage account.
