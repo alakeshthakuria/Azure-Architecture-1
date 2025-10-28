@@ -1,0 +1,3 @@
+The storage account responds back → 
+
+traffic flows back through the Private Endpoint -> PrivateEndpointSubnet -> Gateway Subnet -> VPN tunnel -> and finally returns to our on-prem laptop.
