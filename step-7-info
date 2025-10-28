@@ -1,0 +1,5 @@
+When the DNS resolver inbound endpoint subnet receives the query, it will forward the query to Azure’s Private DNS Zone (privatelink.blob.core.windows.net).
+
+That zone holds the A record for your storage account’s private endpoint, like:
+
+storageaccountfordemolab.privatelink.blob.core.windows.net → 10.0.1.5
