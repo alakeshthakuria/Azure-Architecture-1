@@ -1,0 +1,1 @@
+Once VPN Gateway authenticates the client, the tunnel (data will be encrypted whenever it will move from on-prem device to gateway and vice versa) is established between the Client machine and VPN Gateway over the public internet and the gateway assigns the client a private IP address from the VPN client address pool (for example, 172.16.201.x).
